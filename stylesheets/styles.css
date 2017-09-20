@@ -11,6 +11,9 @@ body {
   font-size:20px;
   max-width:600px;
 }
+.guitar {
+  margin: 50px;
+}
 .com {
   unicode-bidi: bidi-override;
   direction: rtl;
