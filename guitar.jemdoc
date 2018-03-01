@@ -1,0 +1,11 @@
+# jemdoc: menu{MENU}{example.html}
+~~~
+{}{raw}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TeNOv3EGW28?rel=0" frameborder="100" allowfullscreen></iframe></iframe>
+~~~
+
+A self-playing voice-controlled guitar we hacked together during dead week 2016.
+
+The strings and frets are plucked and pressed by arrays of solenoids carefully held over the neck and sound hole of the guitar. We noted that notes corresponding to frets further down the necktend to be out of tune, but that didn't stop Taylor Swift at the 2010 Grammys, so hey.
+
+You can check out the source on github.
