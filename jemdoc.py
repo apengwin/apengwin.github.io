@@ -252,7 +252,7 @@ def standardconf():
   </div>
   
   [lastupdated]
-  Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+  Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>. I stole the CSS file from Ben Recht.
 
   [sourcelink]
   (<a href="|">source</a>)
