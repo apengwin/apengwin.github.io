@@ -1,0 +1,7 @@
+# jemdoc: menu{MENU}{example.html}
+
+= Visualizing traceroute
+
+I'm fascinated by the Internet, and how it's composed of an unstable stack of brittle, but well-designed protocols.
+
+When you access a server somewhere on the web, you send packets 
