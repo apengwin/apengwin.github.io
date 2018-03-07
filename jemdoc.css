@@ -386,13 +386,14 @@ table.imgtable, table.imgtable td {
 
 .page-container {
     padding: 2%;
-    width: 1000px;
+/*    width: 1000px;*/
+    width: 150%;
 /*    width: 100%; */
 }
 
 
 .page-container .grid-wrapper {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     font-size: 0;
 }
@@ -401,7 +402,7 @@ table.imgtable, table.imgtable td {
     display: inline-block;
     height: 18.04vw;
     width: 18.04vw;
-    width: 32%; 
+    width: 32%;
     margin-right: 2%;
     margin-bottom: 2%;
 }
@@ -538,6 +539,60 @@ table.imgtable, table.imgtable td {
     background-position: center center;
 }
 
+.page-container .grid-wrapper .col.col--20 {
+    background: url(./inspo/1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.page-container .grid-wrapper .col.col--21 {
+    background: url(./inspo/2.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.page-container .grid-wrapper .col.col--22 {
+    background: url(./inspo/3.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.page-container .grid-wrapper .col.col--23 {
+    background: url(./inspo/4.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.page-container .grid-wrapper .col.col--24 {
+    background: url(./inspo/5.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.page-container .grid-wrapper .col.col--25 {
+    background: url(./inspo/6.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.page-container .grid-wrapper .col.col--26 {
+    background: url(./inspo/7.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.page-container .grid-wrapper .col.col--27 {
+    background: url(./inspo/8.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.page-container .grid-wrapper .col.col--28 {
+    background: url(./inspo/9.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
 .page-container .grid-wrapper .col:nth-child(3n) {
     margin-right: 0;
 }
