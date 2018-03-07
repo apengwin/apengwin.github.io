@@ -3,15 +3,14 @@
 
 I'm fascinated by the Internet, and how it's composed of an unstable stack of brittle, but well-designed protocols.
 
-When you access a website, your computer writes a message, breaks it up into different packets, and sends these packets to a machine somewhere else in the world. Because it doesn't know exactly how to get the destiniation, the computer instead sends it to a neighboring router that it thinks knows the rest of the way. The receiving router siimlarly doesn't know where the destination is, so it forwards your packet to another router, and this  repeats. This starts a long game of hot potato, zipping packets around a precarious journey across countries, domains, and ISPs. In fact, by the time this website loads on your screen, it's probably already visited more of the United States than I have in my entire life.
+When you access a website, your computer writes a message, breaks it up into different packets, and sends these packets to a machine somewhere else in the world. Because it doesn't know exactly how to get the destiniation, the computer instead sends it to a neighboring router that it thinks knows the rest of the way. The receiving router siimlarly doesn't know where the destination is, so it forwards your packet to another router, and this process repeats. This starts a long game of hot potato, zipping packets around a precarious journey across countries, domains, and ISPs. In fact, by the time this website loads on your screen, it's already seen more of the world than I have in my entire life.
 
-I wanted to comprehend and visualize the reach of the IP packets I've sent around the world, so I extended a firewall I wrote for an undergrad network architecture class to track 
+I wanted to comprehend and visualize the reach of the internet traffic I've sent around the world, so I wrote a program to log my internet usage and show where my packets were being sent in real time.
 
+I used the handy C library [http://www.tcpdump.org/ libpcap] to sniff traffic coming out of my laptop and log the destination address of IP packets coming out of my laptop, and hacked together a frotnend with Flask and React.js, and d3.js to map everything out in real time.
 
 Once we have all this data, we can make some cool visualizations.
 
-
-And some stupid visualizations.
-
+And some stupid ones.
 
 If you want to try this for yourself, the code is available here. Note that processes need +sudo+ access to modify and access raw sockets. I promise nothing bad should happen, but then again I [images/sylvia.png didn't really do that well in Network Architecture], so who knows.

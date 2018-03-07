@@ -1,0 +1,64 @@
+# jemdoc: menu{MENU}{example.html}
+\n\n
+I try to keep a small collection of things that really excite or inspire me close by - photographs, screencaps from movies, songs, etc.
+
+If you want to see some really fire shit, you can check out my [http://well-thereitis.tumblr.com/ tumblr], but for now, you should stay here a bit longer.
+
+\n
+=== Floating Weeds 
+
+{{
+         <div class="page-container">
+            <div class="grid-wrapper">
+                <div class="col col--1">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--2">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--3">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--4">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--5">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--6">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--7">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--8">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--9">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--10">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--11">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--12">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--13">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--14">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--15">
+                    <div class="box"></div>
+                </div>
+                <div class="col col--16">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+}}
+
