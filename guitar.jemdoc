@@ -6,7 +6,6 @@ We hacked a voice-controlled self-playing guitar during dead week 2016, between 
 
 The system's controlled by a python program running on a Raspberry Pi. The strings and frets are strummed and pressed by arrays of solenoids carefully held over the neck and sound hole of the guitar. We noted that notes from  frets further down the neck tend to be out of tune, but [https://www.youtube.com/watch?v=OwYt7ym3eCk that didn't stop Taylor Swift at the 2010 Grammys], so hey.
 
-You can check out the source on [https://github.com/apengwin/Autonomous-guitar github.]
 ~~~
 {}{raw}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TeNOv3EGW28?rel=0" frameborder="100" allowfullscreen></iframe></iframe>
