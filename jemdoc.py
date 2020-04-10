@@ -244,15 +244,10 @@ def standardconf():
   </div></div>
   
   [footerstart]
-  <div id="footer">
-  <div id="footer-text">
   
   [footerend]
-  </div>
-  </div>
   
   [lastupdated]
-  Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>. I stole the CSS file from Ben Recht.
 
   [sourcelink]
   (<a href="|">source</a>)
