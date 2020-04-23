@@ -1,0 +1,13 @@
+1a. Write the compression algorithm that compresses aaaaabbbbc to 5a4bc etc.
+1b. Do the reverse thing.
+2a. Given a social graph, find the path between two people.
+2b. What happens if your social graph is too big to fit in disk. What do you do.
+3. Given a dictionary and a sentence, find all of the words not in the dictionary. (something like this).
+4. Given a stream of logs w some attatched enum, generate a probability distribution of which enums were outputted. How do you sample from it?
+
+Follow up interview.
+1a. What is copy on write? Why is it useful?
+1b. Implement a read-write lock.
+
+2a. How would you implement FB news feed?
+2b. List every strategy for making a website load faster that you know.
