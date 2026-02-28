@@ -1,9 +1,9 @@
 # jemdoc: menu{MENU}{example.html}
 = Visualizing traceroute
 
-I'm fascinated by the Internet, and how it's composed of an unstable stack of brittle, but well-designed protocols.
+I'm fascinated by the Internet, and how it's composed of a stack of brittle, but well-designed protocols.
 
-When you access a website, your computer writes a message, breaks it up into different packets, and sends these packets to a machine somewhere else in the world. Because it doesn't know exactly how to get the destiniation, the computer instead sends it to a neighboring router that it thinks knows the rest of the way. The receiving router siimlarly doesn't know where the destination is, so it forwards your packet to another router, and this process repeats. This starts a long game of hot potato, zipping packets around a precarious journey across countries, domains, and ISPs. In fact, by the time this website loads on your screen, it's already seen more of the world than I have in my entire life.
+When you access a website, your computer writes a message, breaks it up into different packets, and sends these packets to a machine somewhere else in the world. Because it doesn't know exactly how to get the destiniation, the computer instead sends it to a neighboring router that it thinks knows the rest of the way. The receiving router simlarly doesn't know where the destination is, so it forwards your packet to another router, and this process repeats. This starts a long game of hot potato, zipping packets around a precarious journey across countries, domains, and ISPs. In fact, by the time this website loads on your screen, it's already seen more of the world than I have in my entire life.
 
 I wanted to comprehend and visualize the reach of the internet traffic I've sent around the world, so I wrote a program to log my internet usage and show where my packets were being sent in real time.
 
